@@ -1,0 +1,85 @@
+.home{
+    .user{
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        border:solid 1px #999999;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 40px;
+        }
+        &info{
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .access{
+            color: #999999;
+        }
+    }
+
+    .loginInfo{
+        p{
+            line-height: 28px;
+            font-size: 14px;
+            span{
+                color: #666666;
+                margin-left: 60px;
+            }
+        }
+    }
+
+
+    .num{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .el-card{
+            width:32%;
+            height: 80px;
+            margin-bottom: 20px;
+        // /deep/.el-card__body{
+        //     display: flex;
+        // }
+        }
+        .icon{
+            font-size: 30px;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 80px;
+            color: #fff;
+        }
+        .detail{
+            margin-top: 5px;
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+            p{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .num{
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .txt{
+                font-size: 14px;
+                color: #999999;
+                text-align: center;
+            }
+        }
+    }
+    .graph{
+        margin-top: 20px;
+        display:flex;
+        justify-content: space-between;
+        .el-card{
+            width: 48%;
+        }
+    }
+}
