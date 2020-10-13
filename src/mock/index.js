@@ -5,4 +5,5 @@ Mock.setup({
     timeout:'200-2000'
 })
 
-Mock.mock(/\/home\/getData/,'get',homeApi.getHomeData)
+Mock.mock(/\/home\/getData/,'get',homeApi.getHomeData);
+Mock.mock(/\/home\/getTableData/,homeApi.getTableData);
